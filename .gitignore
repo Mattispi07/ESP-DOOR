@@ -1,0 +1,34 @@
+# Ignora file di build del firmware (ESP32)
+firmware/*.bin
+firmware/*.elf
+firmware/*.epp
+firmware/*.hex
+firmware/*.o
+firmware/*.a
+
+# Ignora la cartella di build di Arduino (se usi l'IDE di Arduino)
+firmware/build/
+
+# Ignora file temporanei e cartelle dell'IDE (come VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Ignora file di log generati dal sistema
+*.log
+
+# Ignora file temporanei generati da App Inventor
+app/AIA/*.aia
+app/screens/
+
+# Ignora file temporanei generati dalle immagini (es. icone o diagrammi che non sono necessari nel repo)
+docs/icone/
+docs/flowchart/
+
+# Ignora file di backup di editor (es. vim, emacs, etc.)
+*~
+
+# Ignora file di sistema Mac (se lavori su Mac)
+.DS_Store
+
+# Ignora file temporanei creati da editor (ad esempio, vim, emacs, etc.)
+*.swp
